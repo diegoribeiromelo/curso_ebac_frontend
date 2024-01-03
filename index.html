@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparando números</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O formulário é válido? </h1>
+        <form id="form-comparacao">
+            <input type="number" id="numero-a" required placeholder="Insira o Número `A`"/>
+            <input type="number" id="numero-b" required placeholder="Insira o Número `B`"/>
+            <button id="btn-comparar" type="submit" onclick="validaForm(numeroA,numeroB)">Comparar</button>
+        </form>
+        <p class="message-validacao"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
