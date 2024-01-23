@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.add-tarefa {
+    margin-top: 64px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+}
+
+button{
+    color: #fff;
+    font-size: 16px;
+    background-color: #1ca70f ;
+    padding: 12px;
+    outline: none;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45b63a ;
+}
+
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
